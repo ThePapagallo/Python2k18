@@ -1,0 +1,28 @@
+#coding: utf8
+#Alejandro Gámbin Gómez
+
+
+print """
+****************************************************************
+Super/Normal=1 (1,5$)		Sin plomo/Normal=3	(1.70$)	  
+Super/Turbo=2  (1,55$)		Sin plomo/Con aditivos=4  (1.75$)											  
+Diesel/Normal=5	 (1,60$)							  
+Diesel/Fast&Furius=6 (1,65$)								  	
+****************************************************************
+"""
+
+gasolina=input("Que gasolina desea senior/seniora?")
+litros=input("Cuantos litros quieres")
+
+if (gasolina==1):
+	print "Has elegido Super/Normal" "Coste: ",(litros*1.5) 
+if (gasolina==2):	
+	print "Has elegido Super/Turbo" "Coste: ",(litros*1.55) 
+if (gasolina==3):
+	print "Has elegido Sin plomo /Normal" "Coste: ",(litros*1.55) 
+if (gasolina==4):
+	print "Has elegido Sin plomo/ Con aditivos" , (litros*1.60) 
+if (gasolina==5):
+	print"Has elegido Diesel/Normal" ,(litros*1.65) 
+if (gasolina==6):
+	print "Has elegido Diesel/Fast&Furius" , (litros*1.70) 
