@@ -1,0 +1,21 @@
+#coding: utf8
+#Alejandro Gambín
+
+
+numero=1
+maximo=8
+salir="N"
+
+while(salir=="N"):
+    if(numero%8==1 or numero%8==2):
+        print (numero , "  Arriba")
+    if(numero%8==3 or numero%8==4):
+        print (numero , " Derecha")
+    if(numero%8==5 or numero%9==6):
+        print (numero , " Izquierda")
+    if(numero%8==7 or numero%8==0):
+        print (numero , " Abajo")   
+    numero=numero+1
+    
+    if(numero > maximo):
+        salir ="S"
